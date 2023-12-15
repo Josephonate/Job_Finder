@@ -3,9 +3,10 @@ import { initializeApp } from "firebase/app";
 import { getStorage } from "firebase/storage";
 import { getDatabase } from "firebase/database"; 
 
+
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDLYJkITKkgy3YobN3vtOevHoJx64cymhg",
+  apiKey: process.env.API,
   authDomain: "jobfinder-5711e.firebaseapp.com",
   projectId: "jobfinder-5711e",
   storageBucket: "jobfinder-5711e.appspot.com",
